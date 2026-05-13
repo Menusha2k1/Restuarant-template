@@ -10,7 +10,7 @@ export const menuData = {
       name: "Chicken Fried Rice",
       price: 1200,
       description: "asdd feasdf adadasd",
-      image: "/src/assets/meat2.png",
+      image: "/assets/meat2.png",
     },
     {
       name: "Chicken Fried Rice",
