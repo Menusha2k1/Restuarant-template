@@ -1,12 +1,12 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import hero from "../assets/hero.png";
+import curry from "../assets/curry.png";
+import meat from "../assets/meat.png";
+import meat2 from "../assets/meat2.png";
+import green from "../assets/green.png";
 
-const images = [
-  "/src/assets/hero.png",
-  "/src/assets/curry.png",
-  "/src/assets/meat.png",
-  "/src/assets/meat2.png",
-];
+const images = [hero, curry, meat, meat2];
 
 const hero = () => {
   const [current, setCurrent] = useState(0);
@@ -29,14 +29,14 @@ const hero = () => {
     <div className="pt-20 bg-[#111A1B] min-h-120 sm:min-h-150 md:min-h-175 lg:min-h-200 relative overflow-hidden">
       {/* Left Image */}
       <img
-        src="/src/assets/green.png"
+        src={green}
         alt=""
         className="hidden sm:block absolute -left-20 md:-left-12 lg:-left-8 top-20 sm:top-32 md:top-40 lg:top-48 w-32 sm:w-56 md:w-72 lg:w-96 opacity-50 drop-shadow-[0_0_80px_rgba(0,255,100,0.4)]"
       />
 
       {/* Right Image */}
       <img
-        src="/src/assets/green.png"
+        src={green}
         alt=""
         className="hidden sm:block absolute -right-20 md:-right-12 lg:-right-8 top-20 sm:top-32 md:top-40 lg:top-48 w-32 sm:w-56 md:w-72 lg:w-96 opacity-50 scale-x-[-1] drop-shadow-[0_0_80px_rgba(0,255,100,0.4)]"
       />
