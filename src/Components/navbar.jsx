@@ -55,9 +55,11 @@ function Navbar() {
                 </li>
               ))}
             </ul>
-            <button className="mt-6 w-full bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-xl font-semibold transition duration-300">
-              Book Table
-            </button>
+            <Link to="/menu">
+              <button className="mt-6 w-full bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-xl font-semibold transition duration-300">
+                Menu
+              </button>
+            </Link>
           </div>
         )}
       </div>
