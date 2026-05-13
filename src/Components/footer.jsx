@@ -54,7 +54,7 @@ function Footer() {
           <h2 className="text-lg sm:text-xl font-semibold mb-4">Contact</h2>
 
           <ul className="space-y-3 text-sm sm:text-base text-gray-400">
-            <li>Colombo, Sri Lanka</li>
+            <li>Mirissa, Sri Lanka</li>
             <li>+94 77 123 4567</li>
             <li>foodie@email.com</li>
           </ul>
