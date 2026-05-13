@@ -56,7 +56,7 @@ function Footer() {
           <ul className="space-y-3 text-sm sm:text-base text-gray-400">
             <li>Mirissa, Sri Lanka</li>
             <li>+94 77 123 4567</li>
-            <li>foodie@email.com</li>
+            <li>foodie@gmail.com</li>
           </ul>
         </div>
       </div>
