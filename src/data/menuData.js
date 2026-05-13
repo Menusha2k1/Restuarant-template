@@ -1,22 +1,26 @@
+import meat from "../../assets/meat.png";
+import meat2 from "../../assets/meat2.png";
+import hero from "../../assets/hero.png";
+
 export const menuData = {
   rice: [
     {
       name: "Chicken Fried Rice",
       price: 1200,
       description: "asdd feasdf adadasd",
-      image: "/src/assets/meat.png",
+      image: { meat },
     },
     {
       name: "Chicken Fried Rice",
       price: 1200,
       description: "asdd feasdf adadasd",
-      image: "/assets/meat2.png",
+      image: { meat2 },
     },
     {
       name: "Chicken Fried Rice",
       price: 1200,
       description: "asdd feasdf adadasd",
-      image: "/src/assets/curry.png",
+      image: { hero },
     },
   ],
   noodles: [
