@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
+import meat from "../../assets/meat.png";
+import hero from "../../assets/hero.png";
+import rice from "../../assets/rice.png";
 
-const images = [
-  "/src/assets/rice.png",
-  "/src/assets/meat.png",
-  "/src/assets/hero.png",
-];
+const images = [rice, meat, hero];
 const captions = ["Mongolian rice", "fish", "meat"];
 const prices = ["LKR 2500", "LKR 3800", "LKR 1650"];
 
