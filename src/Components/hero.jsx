@@ -1,10 +1,10 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import hero from "../assets/hero.png";
-import curry from "../assets/curry.png";
-import meat from "../assets/meat.png";
-import meat2 from "../assets/meat2.png";
-import green from "../assets/green.png";
+import hero from "../../assets/hero.png";
+import curry from "../../assets/curry.png";
+import meat from "../../assets/meat.png";
+import meat2 from "../../assets/meat2.png";
+import green from "../../assets/green.png";
 
 const images = [hero, curry, meat, meat2];
 
